@@ -1,4 +1,18 @@
-#hero-image {
-    height:800px;
+h1, p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
 
+h1{
+    font-size: 20px;
+    color:#00c2c7;
+}
+
+p{
+    color: 	#0086ad;
+}
+
+#hero-image {
+    height:100vh;
+    background-size: cover;
 }
