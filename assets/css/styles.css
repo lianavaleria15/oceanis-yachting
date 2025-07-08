@@ -14,6 +14,29 @@ nav{
     box-shadow: 0 2px 10px rgba(0,0,0,0.1)
 }
 
+nav ul{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+nav li{
+    padding:10px;
+    margin:0;
+   
+}
+
+nav a{
+    text-decoration: none;
+    color:#e6e6e6;
+    position: relative;
+}
+nav a:hover{
+    color:#0086ad;
+    font-size:18px;
+}
+
 .chapter-section h1, p{
     color:#e6e6e6;
 }
